@@ -7,6 +7,7 @@ void main() {
     title: 'Congresso Abramede MG',
     theme: ThemeData(
       primarySwatch: Colors.indigo,
+      primaryColor: Colors.lightBlue,
     ),
     home: Home(),
   ));

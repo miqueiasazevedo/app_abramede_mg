@@ -45,11 +45,10 @@ class Home extends StatelessWidget {
   // ignore: unused_field
   int _current = 0;
   List imgList = [
-    Image.asset("images/apoio-institucional-amb.png"),
+    Image.asset("images/apoio-institucional-unimed.png"),
     Image.asset("images/apoio-institucional-ammg.png"),
     Image.asset("images/apoio-institucional-biblioteca-virtual.png"),
-    Image.asset("images/apoio-institucional-casa-do-turismo.png"),
-    Image.asset("images/apoio-institucional-sinmed.png")
+    Image.asset("images/apoio-institucional-somiti.png")
   ];
 
   List<T> map<T>(List list, Function handler) {
@@ -82,11 +81,11 @@ class Home extends StatelessWidget {
                 margin: EdgeInsets.only(
                   top: 20,
                 ),
-                child: Image.asset("images/banner.png"),
+                child: Image.asset("images/banner_2023.jpg"),
               ),
               Container(
                 color: Color(Configuracao.primayColor),
-                height: 110,
+                height: 90,
                 child: Padding(
                   padding: const EdgeInsets.only(
                       left: 20, top: 29, right: 20, bottom: 20),
@@ -96,7 +95,7 @@ class Home extends StatelessWidget {
                         padding: const EdgeInsets.all(1),
                         child: Center(
                           child: Text(
-                            "23 a 25 de setembro de 2021",
+                            "14 a 16 de Setembro 2023",
                             style: TextStyle(
                               fontSize: 24,
                               color: Colors.white,
@@ -119,7 +118,7 @@ class Home extends StatelessWidget {
                         padding: const EdgeInsets.only(top: 10, bottom: 10),
                         child: Center(
                           child: Text(
-                            "O III ABRAMEDE MG ocorrerá de forma presencial e on-line.",
+                            "O I CONGRESSO SUDESTE E IV CONGRESSO MINEIRO DE MEDICINA DE EMERGÊNCIA \n ocorrerá de forma presencial e on-line.",
                             style: TextStyle(
                                 fontSize: 21,
                                 fontWeight: FontWeight.bold,
@@ -132,7 +131,7 @@ class Home extends StatelessWidget {
                         padding: const EdgeInsets.only(top: 20, bottom: 20),
                         child: Center(
                           child: Text(
-                            "O evento terá como temática central o ensino da Emergência da graduação à pós-graduação.",
+                            "O congresso busca soluções eficientes para emergências médicas, promovendo segurança assistencial e parcerias entre profissionais e gestores da saúde.",
                             style: TextStyle(
                                 fontSize: 17,
                                 color: Color(Configuracao.primayColor)),

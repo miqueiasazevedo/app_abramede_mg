@@ -1,7 +1,7 @@
 class Configuracao {
-  static final String urlRaiz = "http://192.168.73.76/abramedemg/web/";
-  //static final String url_raiz = "https://cursos.abramedemg.org.br/";
-  static final String urlWebservice = urlRaiz + "sgc/ws";
+  // static final String urlRaiz = "http://192.168.100.10:8000/web/";
+  static final String url_raiz = "https://cursos.abramedemg.org.br/";
+  static final String urlWebservice = url_raiz + "sgc/ws";
 
   static Map<String, String> getHeaders() {
     Map<String, String> headers = new Map<String, String>();
